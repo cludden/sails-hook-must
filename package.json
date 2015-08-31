@@ -1,0 +1,31 @@
+{
+  "name": "sails-hook-must",
+  "version": "0.1.0",
+  "description": "a sails hook that will auto-build your sails-must policies for you!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cludden/sails-hook-must.git"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "sails-must",
+    "policies",
+    "configurable",
+    "arguments",
+    "parameters"
+  ],
+  "author": "Chris Ludden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cludden/sails-hook-must/issues"
+  },
+  "homepage": "https://github.com/cludden/sails-hook-must#readme",
+  "dependencies": {
+    "sails-util": "^0.10.6"
+  }
+}
