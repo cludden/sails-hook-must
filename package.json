@@ -6,6 +6,9 @@
   "scripts": {
     "test": "npm test"
   },
+  "sails": {
+    "isHook": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cludden/sails-hook-must.git"
@@ -27,5 +30,6 @@
   "homepage": "https://github.com/cludden/sails-hook-must#readme",
   "dependencies": {
     "sails-util": "^0.10.6"
-  }
+  },
+  "devDependencies": {}
 }

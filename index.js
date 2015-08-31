@@ -29,7 +29,6 @@ module.exports = function(sails) {
          * @api public
          */
         initialize: function(cb) {
-            console.log('fired');
             // Callback is optional
             cb = util.optional(cb);
 
