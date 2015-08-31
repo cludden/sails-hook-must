@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-must",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a sails hook that will auto-build your sails-must policies for you!",
   "main": "index.js",
   "scripts": {
