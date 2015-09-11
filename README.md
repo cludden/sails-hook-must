@@ -3,13 +3,17 @@ a `sails` hook that replaces the default `policy` hook. This simply augments the
 
 ## Installing
 Install via `npm`:
-`npm install --save sails-hook-must`
+```npm install --save sails-hook-must```
 
 Disable the default `policy` hook:
 ```javascript
-// in config/hooks.js
+// in .sailsrc
 
-module.exports.hooks = {
-    policies: false
+{
+    //..
+    "hooks": {
+        "policies": false
+    }
+    //..
 }
 ```
